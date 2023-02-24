@@ -1,0 +1,23 @@
+JavaScript is a versatile programming language that is widely used for building web applications.
+One of its key features is its ability to work with objects, which are a fundamental part of the language. 
+Here are ten key points about objects and their internal representation in JavaScript:
+
+1)Objects in JavaScript are collections of key-value pairs, where the key is a string or symbol, and the value can be any data type, including other objects.
+
+2)Objects in JavaScript are dynamic and can be modified at runtime by adding or removing properties.
+
+3)Each object in JavaScript has an internal representation that includes a hidden class, which describes the object's structure and properties.
+
+4)The hidden class of an object is created when the object is first defined, and it is used to optimize property access and improve performance.
+
+5)When a property is added to an object, JavaScript checks the object's hidden class to determine whether the property is compatible with the existing structure.
+
+6)If the property is compatible with the hidden class, JavaScript adds the property to the object and updates the hidden class accordingly.
+
+7)If the property is not compatible with the hidden class, JavaScript creates a new hidden class that includes the new property and updates the object's hidden class to point to the new class.
+
+8)JavaScript also uses an object's hidden class to optimize function calls and improve performance.
+
+9)When a function is called on an object, JavaScript checks the object's hidden class to determine the function's location in memory, which improves the speed of function calls.
+
+10)Understanding the internal representation of objects in JavaScript is essential for writing efficient code and optimizing performance in web applications.
